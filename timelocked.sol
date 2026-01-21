@@ -24,6 +24,6 @@ contract TimeLockedWallet {
         require(success, "ETH transfer failed");
     }
 
-    // Accept ETH
     receive() external payable {}
 }
+
